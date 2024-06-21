@@ -25,7 +25,8 @@ struct P2P_sampleApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView()
+            ConnectionView()
         }
         .modelContainer(sharedModelContainer)
     }

@@ -15,6 +15,8 @@
 		A102757C2C21D251001D942D /* P2P_sampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A102757B2C21D251001D942D /* P2P_sampleTests.swift */; };
 		A10275862C21D251001D942D /* P2P_sampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10275852C21D251001D942D /* P2P_sampleUITests.swift */; };
 		A10275882C21D251001D942D /* P2P_sampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10275872C21D251001D942D /* P2P_sampleUITestsLaunchTests.swift */; };
+		A10275952C21DA3C001D942D /* ConnectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10275942C21DA3C001D942D /* ConnectionView.swift */; };
+		A10275972C21DA95001D942D /* MultipeerSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10275962C21DA95001D942D /* MultipeerSession.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		A10275812C21D251001D942D /* P2P-sampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "P2P-sampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A10275852C21D251001D942D /* P2P_sampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P2P_sampleUITests.swift; sourceTree = "<group>"; };
 		A10275872C21D251001D942D /* P2P_sampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P2P_sampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A10275942C21DA3C001D942D /* ConnectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionView.swift; sourceTree = "<group>"; };
+		A10275962C21DA95001D942D /* MultipeerSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipeerSession.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 				A102756C2C21D24F001D942D /* Item.swift */,
 				A102756E2C21D250001D942D /* Assets.xcassets */,
 				A10275702C21D250001D942D /* Preview Content */,
+				A10275942C21DA3C001D942D /* ConnectionView.swift */,
+				A10275962C21DA95001D942D /* MultipeerSession.swift */,
 			);
 			path = "P2P-sample";
 			sourceTree = "<group>";
@@ -262,6 +268,8 @@
 			files = (
 				A102756B2C21D24F001D942D /* ContentView.swift in Sources */,
 				A102756D2C21D24F001D942D /* Item.swift in Sources */,
+				A10275972C21DA95001D942D /* MultipeerSession.swift in Sources */,
+				A10275952C21DA3C001D942D /* ConnectionView.swift in Sources */,
 				A10275692C21D24F001D942D /* P2P_sampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
